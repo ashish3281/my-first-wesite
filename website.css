@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    background: #333;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    text-align: center;
+    line-height: 1.5;
+
+    
+
+}
+h2{
+    margin: 0;
+    padding: 1em;
+}
+p{
+    margin: 0;
+    padding: 1em;
+}
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.background{
+    position: absolute;
+    background-image: url("https://static.pexels.com/photos/248515/pexels-photo-248515.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+#headerID{
+    text-align: center;
+    min-height: 450px;
+    color: #fff;
+}
+#headerID h1{
+      padding-top: 100px;
+      padding-bottom: 0px;
+}
+#headerID p{
+    color: violet;
+}
+.btn{
+    background: #333;
+    border: 1px solid #666;
+    padding: 1em;
+    
+}
+.btn:hover{
+    background: #fff;
+    color: #333;
+    cursor: grabbing;
+}
+#section-a{
+    background: #eaeaea;
+    color: #333;
+    padding-bottom: 2em;
+    
+}
+
+#section-b{
+    display: grid;
+    padding: 2em;
+
+}
+#section-b ul{
+       list-style: none;
+       margin: 0;
+       padding: 0;
+       display: flex;
+       justify-content: space-around;
+}
+#section-b li{
+    background: #fff;
+    color: #333;
+    width: 31%;
+    margin-bottom: 1em;
+}
+#section-c{
+    background:#fff;
+    color:#333;
+    padding: 0 2em 0 2em;
+}
+#section-d{
+    display:flex;
+}
+#section-d .box{
+     padding:1em;
+}
+#section-d .box:first-child{
+    background: skyblue;
+}
+#footer{
+    background: black;
+    color: #fff;
+    display: flex;
+    padding: 2em;
+}
+#footer div:last-child{
+    margin-left: auto;
+}
+@media only screen and(max-width:600px){
+    #section-b ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: block;
+        justify-content: space-around;
+    }
+ #section-b li{
+    background: #fff;
+    color: #333;
+    width: 100%;
+    margin-bottom: 1em;
+     }
+     #section-d {
+    display: block;
+   }
+   #footer{
+    background: black;
+    color: #fff;
+    display: block;
+    padding: 2em;
+   }
+   #footer div:last-child{
+       margin-top: 20px;
+   }
+}
