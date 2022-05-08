@@ -1,8 +1,4 @@
 # my-first-wesite
-A parallax website includes fixed images in the background that you can keep in place and you can scroll down the page to see different parts of the image.
-<br>With basic knowledge of HTML and CSS, you can give a parallax effect to a website. 
-
-Give it a try and divide the whole page into three to four different sections. 
-<br>Set 3-4 background images, align the text for different sections, set margin and padding, add background-position and other CSS elements and properties to create a parallax effect.
+Landing Page can make using HTML and CSS but it requires a solid knowledge of these two building blocks. You will be using lots of creativity while making a landing page. You will practice how to add footer and header, create columns, align-items, divide the sections and a lot of things. You will have to use CSS carefully keeping in mind that different elements do not overlap with each other. You will also take care of color combinations, padding, margin, space between sections, paragraphs, and boxes. Color combinations should go well with each other for different sections or backgrounds. You can take help from the link given below. 
 <hr>
-You can take help from -- ashish3281.github.io/my-first-wesite/
+You can take help from the link given below -- ashish3281.github.io/my-first-wesite/
