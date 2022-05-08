@@ -5,4 +5,4 @@ A parallax website includes fixed images in the background that you can keep in 
 Give it a try and divide the whole page into three to four different sections. 
 <br>Set 3-4 background images, align the text for different sections, set margin and padding, add background-position and other CSS elements and properties to create a parallax effect.
 <hr>
-You can take help from 
+You can take help from -- ashish3281.github.io/my-first-wesite/
